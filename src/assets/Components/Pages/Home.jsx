@@ -1,6 +1,6 @@
-import { LikeDislike } from '../ui/LikeDislike';
-import { ColorPicker } from '../ui/ColorPicker';
-import { Timer } from '../ui/Timer';
+import { Like } from "../UI/Like.jsx";
+import { Color} from "../UI/Color.jsx";
+import { Time } from "../UI/Time.jsx";
 
 export const Home = ({ isDarkMode, toggleMode }) => {
   return (
@@ -11,9 +11,9 @@ export const Home = ({ isDarkMode, toggleMode }) => {
           {isDarkMode ? 'Light Mode' : 'Dark Mode'}
         </button>
       </div>
-      <LikeDislike />
-      <ColorPicker />
-      <Timer />
+      <Like />
+      <Color />
+      <Time />
     </div>
   )
 }
